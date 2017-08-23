@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JKJ | BIG POINTS NO LOSIN RELEASE PARTY</title>
+  <meta name="description" content="Project">
+  <meta name="Nathanael Wa Mwenze" content="SitePoint">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:600|Passion+One:700|Patua+One|Quattrocento+Sans|Rammetto+One" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/Tone.js" ></script>
+<!--        <script type"text/javascript" src="js/StartAudioContext.js"></script>-->
+    
+
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <section id="page">
+      <header></header>
+      <nav>
+       
+        </nav>
+      <main>
+        
+
+          
+<!--          flyer-->
+          
+          <div id="flyer">
+              <div id="lyerText" class="divider">
+                  <h1><br>JKJ</h1>
+                  <h1><br>X</h1>
+                  <h1>THE<br> BURGH BOYZ</h1>
+                  <h2 class = "yellowboard">New Album<br><span class="anime">BIG POINTS NO LOSIN'</span><br>
+                  <span id="play"></span>
+                      <button id="playa" type="button" class="button1" onclick = "player.stop()">&#10074;&#10074;</button></h2>
+                  <h2>&nbsp;</h2>
+                  <h2 class="yellowboard">Listening Party<br><a class="threads" href="https://www.threadsoncarson.com/">Threads on Carson</a>
+                  September 9th<br>
+                  4pm - 7pm</h2>
+              </div>
+              
+              
+              
+              
+       
+            
+          </div>
+          
+          <div class="foot">
+              <p>For more info: <b><a href="http://RareNation.com">RareNation.com</a></b> </p>
+            </div>
+          
+          
+          
+          
+         
+<!--
+          
+            <div class="divider">
+          </div>
+-->
+          
+        </main>
+      <footer><br>
+        <br></footer>
+    </section>
+        
+    
+    
+  <script>
+      
+//      window.onload = function(){
+//          player.start();
+//      }
+      
+      var playPause = document.getElementById("play");
+      
+      var buffer = new Tone.Buffer("https://res.cloudinary.com/dvwvkt7iq/video/upload/ac_mp3,br_128/v1503523460/Theme_Song_Master_ktfiwh.mp3", function(){
+	//the buffer is now available.
+	var buff = buffer.get();
+});
+      
+      var player = new Tone.Player ({
+            "url" : "https://res.cloudinary.com/dvwvkt7iq/video/upload/ac_mp3,br_128/v1503523460/Theme_Song_Master_ktfiwh.mp3",
+            
+            "autostart" : true
+          
+            
+        });
+      
+//      player.volume: -20;
+      
+      player.buffer.on
+//      
+      
+    
+      
+      player.toMaster();
+      
+      $('button').click
+      
+      
+      
+      
+      
+     
+  
+    </script>
+</body>
+</html>
