@@ -139,6 +139,8 @@ a:hover {
           width: 80%;
       }
       
+     header {display: none;}
+     
       #flyer {
           background-color: black;
     background-image: url(../img/jkjeventimg2.png);
