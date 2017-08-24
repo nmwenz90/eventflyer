@@ -192,6 +192,10 @@ a:hover {
     font-size: 1.8em;
     line-height: 1.5;
 }
+     
+     #playa {
+         display: none;
+     }
 
 p {
     font-family: 'Quattrocento Sans', sans-serif;
