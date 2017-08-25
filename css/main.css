@@ -118,11 +118,12 @@ a:hover {
 
 .threads {
     color: white;
+	text-decoration: underline;
 }
 
 .threads:hover {
     color: #f9f9f9;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold; 
 }
 
@@ -221,7 +222,7 @@ a:hover {
 
 .threads:hover {
     color: #f9f9f9;
-    
+    text-decoration: none;
     font-weight: bold; 
 }
 
